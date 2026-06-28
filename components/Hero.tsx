@@ -70,7 +70,7 @@ export default function Hero() {
             className="px-6 py-3 rounded-xl bg-gradient-to-r from-violet-600 to-purple-600 text-white font-semibold shadow-lg shadow-violet-500/30 hover:shadow-violet-500/50 hover:-translate-y-0.5 transition-all duration-300">
             View Projects
           </a>
-          <a href="/resume.pdf" download
+          <a href="/DARSHAN_RESUME.pdf" download="DARSHAN_RESUME.pdf"
             className="px-6 py-3 rounded-xl bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 font-semibold border border-slate-200 dark:border-slate-700 hover:border-violet-400 hover:-translate-y-0.5 transition-all duration-300 shadow-sm">
             Download Resume
           </a>
