@@ -4,6 +4,7 @@ import { Phone, Mail, Send } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "./SocialIcons";
 import { useState } from "react";
 import SectionWrapper from "./SectionWrapper";
+import { GITHUB_URL, LINKEDIN_URL } from "@/lib/data";
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", subject: "", message: "" });
@@ -19,8 +20,8 @@ export default function Contact() {
   const contacts = [
     { icon: Phone, label: "Phone", value: "+91 9342850382", href: "tel:+919342850382" },
     { icon: Mail, label: "Email", value: "darshan.s2024cse@sece.ac.in", href: "mailto:darshan.s2024cse@sece.ac.in" },
-    { icon: GithubIcon, label: "GitHub", value: "github.com/darshan", href: "#" },
-    { icon: LinkedinIcon, label: "LinkedIn", value: "linkedin.com/in/darshan", href: "#" },
+    { icon: GithubIcon, label: "GitHub", value: "github.com/dfordarshans", href: GITHUB_URL },
+    { icon: LinkedinIcon, label: "LinkedIn", value: "linkedin.com/in/darshan-s", href: LINKEDIN_URL },
   ];
 
   return (

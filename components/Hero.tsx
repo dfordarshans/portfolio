@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Mail, ArrowDown } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "./SocialIcons";
 import { useTypingEffect } from "@/hooks/useTypingEffect";
+import { GITHUB_URL, LINKEDIN_URL } from "@/lib/data";
 
 const titles = [
   "Computer Science Engineering Student",
@@ -86,8 +87,8 @@ export default function Hero() {
           className="flex items-center justify-center gap-4 mb-16"
         >
           {[
-            { icon: GithubIcon, href: "#", label: "GitHub" },
-            { icon: LinkedinIcon, href: "#", label: "LinkedIn" },
+            { icon: GithubIcon, href: GITHUB_URL, label: "GitHub" },
+            { icon: LinkedinIcon, href: LINKEDIN_URL, label: "LinkedIn" },
             { icon: Mail, href: "mailto:darshan.s2024cse@sece.ac.in", label: "Email" },
           ].map(({ icon: Icon, href, label }) => (
             <a key={label} href={href} aria-label={label} target="_blank" rel="noopener noreferrer"

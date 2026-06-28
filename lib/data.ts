@@ -52,6 +52,9 @@ export const CERTIFICATIONS: Certification[] = [
   { id: 6, title: "Data Structures & Algorithm", issuer: "Udemy" },
 ];
 
+export const GITHUB_URL = "https://github.com/dfordarshans";
+export const LINKEDIN_URL = "https://www.linkedin.com/in/darshan-s-306910313/";
+
 export const CODING_PROFILES: CodingProfile[] = [
   { platform: "LeetCode", solved: "80+", url: "#", color: "from-orange-500 to-yellow-500" },
   { platform: "HackerRank", solved: "25+", url: "#", color: "from-green-500 to-emerald-500" },
